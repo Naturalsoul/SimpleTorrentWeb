@@ -4,6 +4,7 @@
   "description": "SimpleTorrent is a web page to download torrents.",
   "main": "index.js",
   "scripts": {
+    "preinstall": "npm run typings install",
     "start": "concurrently \"npm run tsc:w\" \"npm run lite\" ",
     "lite": "lite-server",
     "postinstall": "typings install",
