@@ -51,5 +51,8 @@
   "bugs": {
     "url": "https://github.com/Naturalsoul/SimpleTorrentWeb/issues"
   },
-  "homepage": "https://github.com/Naturalsoul/SimpleTorrentWeb#readme"
+  "homepage": "https://github.com/Naturalsoul/SimpleTorrentWeb#readme",
+  "engine": {
+    "node": "6.6.0"
+  }
 }
